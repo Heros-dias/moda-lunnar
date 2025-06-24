@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODA LUNNAR - Estilo e Tendências</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            margin: 0 15px;
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .carrossel {
+            width: 100%;
+            max-width: 800px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .slides {
+            display: flex;
+            width: 300%;
+            height: 100%;
+            animation: slide 9s infinite;
+        }
+        .slides img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0%); }
+            33% { transform: translateX(0%); }
+            36% { transform: translateX(-100%); }
+            66% { transform: translateX(-100%); }
+            69% { transform: translateX(-200%); }
+            100% { transform: translateX(-200%); }
+        }
+        .post {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MODA LUNNAR</h1>
+    <p>Estilo, Tendências e Inspirações</p>
+</header>
+
+<nav>
+    <a href="../index.html">Início</a>
+    <a href="#">Looks do Dia</a>
+    <a href="#">Dicas de Beleza</a>
+    <a href="#">Contato</a>
+</nav>
+
+<div class="carrossel">
+    <div class="slides">
+        <img src="./img/Imagem do WhatsApp de 2025-06-24 à(s) 08.24.29_d6b865aa.jpg" alt="Moda Primavera">
+        <img src="" alt="Looks Inverno">
+        <img src="https://via.placeholder.com/800x300/DB7093/ffffff?text=Beleza+Natural" alt="Beleza Natural">
+    </div>
+</div>
+
+<section class="post">
+    <h2>Tendência Primavera/Verão 2025</h2>
+    <p>Os tons pastel estão em alta! Saiba como combinar cores suaves para criar looks leves e modernos nesta temporada.</p>
+    <p><strong>Publicado em:</strong> 24 de Junho de 2025</p>
+</section>
+
+<section class="post">
+    <h2>Looks para o Inverno</h2>
+    <p>Casacos oversized, botas de cano alto e muitas camadas: veja inspirações para arrasar nos dias frios!</p>
+    <p><strong>Publicado em:</strong> 15 de Junho de 2025</p>
+</section>
+
+<section class="post">
+    <h2>Maquiagem Minimalista</h2>
+    <p>A tendência "clean girl" continua! Aprenda a fazer uma maquiagem natural, iluminada e sofisticada.</p>
+    <p><strong>Publicado em:</strong> 05 de Junho de 2025</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 MODA LUNNAR - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
